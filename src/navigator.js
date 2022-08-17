@@ -18,11 +18,8 @@ export default class Navigator extends React.Component{
             else if(i === id){
                 return <button id={navigationButtonId} className="selected" key={`current${i}`} onClick={()=>{this.handleChange(i)}}>{i+1}</button>
             }
-            else if(i !== id){
+            else {
                 return <button id={navigationButtonId} key={`default${i}`} onClick={()=>{this.handleChange(i)}}>{i+1}</button>
-            }
-            else{
-                return ""
             }
         })
         return <div className="navigatorDiv">{questionsNavigator}</div>
