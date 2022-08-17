@@ -1,0 +1,181 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 33px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: #ffa500;
+}
+.navigator{
+  border: 2px solid #000000;
+  width: 20%;
+  height: 92vh;
+  margin-top: 10px;
+  padding: 5px;
+}
+.mainContent{
+  border: 2px solid #000000;
+  height: 92vh;
+  width: 75%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+ font-size:150%;
+}
+.buttons{
+  text-align: center;
+  padding-top: 33%;
+}
+#button1,#button2,#button3,#button4,#button5,#button6{
+  margin: 10px;
+  cursor: pointer;
+}
+#button6{
+  max-width: 15%;
+  margin: 0 43%;
+}
+.navigatorDiv > button{
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  cursor: pointer;
+  height: 5vh;
+}
+.selected{
+  background-color:#ffa500
+}
+.saved{
+  background-color:#008000;
+}
+.review{
+  background-color: #8a2be2;
+}
+#wrapper{
+  display: block;
+}
+#Acknowledge{
+  display: none;
+  justify-content: center;
+}
+.legend{
+  border: 2px solid #000000;
+  margin-top: 1%;
+}
+.box{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+.orange{
+  background-color:#ffa500;
+}
+.green{
+  background-color: #008000;
+}
+.purple{
+  background-color: #8a2be2;
+}
+.gray{
+  background-color: #efefef;
+}
+.headings{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #FFCA4B;
+  margin: 2% 0;
+}
+.headingQuestion{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #FFCA4B;
+  margin: 0% 0;
+}
+#Acknowledge{
+  display: none;
+  border: 2px solid #000000;
+  margin: 3px 15%;
+  width: 70%;
+  height: 96vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.table,thead,tbody,td{
+  border: 1px solid #0000ff;
+}
+.tableWidth{
+  width: 100%;
+}
+.lastMinutes{
+  color: #ff0000;
+  text-align: center;
+  animation: blinker 1s linear infinite;
+  font-size: 183%;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+li{
+  margin: 10px 0%;
+}
+.rate{
+  text-align: center;
+  margin-top: 3%;
+  border: 1px dashed #0000ff;
+}
+.instructionsDiv{
+  border:1px solid black;
+  margin:0 5%;
+  margin-top:3%;
+}
+.instructionsHeading,.AcknowledgeHeading,.resultHeading{
+  text-align: center;
+}
+.liRed{
+  color: #ff0000;
+}
+.startExamButton{
+  display:flex;
+  margin:5% 46%;
+}
+.imageDiv{
+  width:85%;
+  height:80%;
+  margin:4% 8%;
+}
+.image{
+  width:117%; 
+  margin-left:-9%; 
+}
+.timer{
+  text-align:center;
+  font-size:150%; 
+}
+.optionsMargin{
+  margin:2% 0;
+}
+.correct{
+  background-color: #00c800;
+}
+.wrong{
+  background-color: #f33333;
+}
+.markScored{
+  margin-top: 2%;
+  background-color: #FFCA4B;
+  text-align: center;
+}
+.goFirstPage{
+  margin:5px 44%
+}
