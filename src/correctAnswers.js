@@ -76,7 +76,7 @@ export const correctAnswers = [
     },
     {
         QuestionNumber:'20',
-        Ans:'Mercury'
+        Ans:'Venus'
     },
     {
         QuestionNumber:'21',
