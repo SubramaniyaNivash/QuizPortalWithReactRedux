@@ -4,7 +4,7 @@ import Buttons from './buttons';
 import CountDownTimer from './CountDownTimer';
 import { useState } from 'react';
 import React from 'react';
-import image from '/Users/subramaniyanivash/Quiz Portal with react along with redux/quiz_portal/src/images/Thank You.jpeg'
+import image from '/Users/subramaniyanivash/React/Quiz Portal/Quiz Portal with react along with redux/quiz_portal/src/images/Thank You.jpeg'
 import ShowAnswers from './answersSaved';
 import { Questions } from './questionData';
 export default function MainPage(){
