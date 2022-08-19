@@ -73,7 +73,7 @@ export const correctAnswers = [
     },
     {
         QuestionNumber:'19',
-        Ans:'Nepal',
+        Ans:'Tibet',
     },
     {
         QuestionNumber:'20',
